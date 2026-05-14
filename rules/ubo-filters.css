@@ -18,6 +18,7 @@ x.com##[aria-label="订阅 Premium，撰写自己的长帖"]
 x.com##div:has(>div>[aria-label="推荐关注"])
 ! 2024年12月5日 https://x.com
 x.com##[aria-label="当前趋势"]>div>div:has(span:has-text(/Suggested Videos/))
+x.com##[data-testid="sidebarColumn"],[role="banner"],[data-testid="GrokDrawer"],[data-testid="chat-drawer-root"]
 
 
 
@@ -41,12 +42,11 @@ x.com##[aria-label="当前趋势"]>div>div:has(span:has-text(/Suggested Videos/)
 
 ! 2024-01-25 https://twitter.com
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-14lw9ot.css-175oi2r
-
-! 2024-01-30 https://www.ithome.com
-
+ 
 ! 2024-03-13 https://www.v2ex.com
 ||www.v2ex.com/static/img/corner_star.png$image
 www.v2ex.com##div.item.cell[style*="star"]
+global.v2ex.co###pro-campaign-container
 
 
 ! 2023-12-01 https://www.ithome.com 
@@ -68,6 +68,27 @@ www.ithome.com###ilikeit-div
 www.ithome.com###menu-app
 www.ithome.com##.owl-stage-outer
 www.ithome.com##.slick-wrap
+www.ithome.com##.newsgrade
+www.ithome.com###side_func
+www.ithome.com##.login-guide-box
+www.ithome.com###fls
+www.ithome.com##footer
+www.ithome.com##.dajia
+www.ithome.com###postcomment3
+www.ithome.com##.related_post
+www.ithome.com###tt
+www.ithome.com###down
+www.ithome.com##.slick-wrap
+www.ithome.com###top
+www.ithome.com##.newMiddleImg
+www.ithome.com###nav
+www.ithome.com###cp
+www.ithome.com###nnews > .t-h
+www.ithome.com##.shareto
+www.ithome.com###rm-login-modal
+
+www.ithome.com##p:has(a[data-androidurl*="ithome"])
+www.ithome.com##p:has(a:has-text(红包))
 
 
 ! 2024-05-09 https://www.cnbeta.com.tw
